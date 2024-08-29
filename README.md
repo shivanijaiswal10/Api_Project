@@ -26,7 +26,6 @@ This project demonstrates API testing using **Rest Assured** and **JAVA** for au
 ## Tools & Technologies
 - **Rest Assured** (Java)
 - **JUnit/TestNG** (for Rest Assured)
-- **VS Code** (for Cypress)
 - **Spring Tool Suite/Eclipse** (for Rest Assured)
 
 ## Test Scenarios
@@ -34,36 +33,13 @@ The following scenarios are covered:
 - User creation, retrieval, update, and deletion.
 - Login and logout functionality.
 - Handling invalid requests and responses.
-- Validating response codes, headers, and body content.
-
-## Installation
+- Validating response codes, headers, and body content
 
 ### Prerequisites
-- Java 11 or higher (for Rest Assured)
-- Node.js (for Cypress)
 - Maven (for dependency management)
 - VS Code and Spring Tool Suite or Eclipse
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/api-testing-project.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd api-testing-project
-   ```
-3. Install dependencies:
-   - For Rest Assured (Maven):
-     ```bash
-     mvn install
-     ```
-   - For Cypress:
-     ```bash
-     npm install
-     ```
 
-## Usage
 
 ### Running Rest Assured Tests
 To run API tests using **Rest Assured**:
