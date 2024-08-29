@@ -3,8 +3,7 @@
 # API Testing Project
 
 ## Table of Contents
-- [Introduction](This project demonstrates API testing using **Rest Assured** and **JAVA** for automating and validating API requests. The purpose is to ensure that the API endpoints are functioning as expected by performing various tests such as CRUD operations and authentication.
-)
+- [Introduction](#Introduction)
 - [Features](#features)
 - [Tools & Technologies](#tools--technologies)
 - [Test Scenarios](#test-scenarios)
@@ -15,7 +14,7 @@
 - [License](#license)
 
 ## Introduction
-This project demonstrates API testing using **Rest Assured** and **Cypress** for automating and validating API requests. The purpose is to ensure that the API endpoints are functioning as expected by performing various tests such as CRUD operations and authentication.
+This project demonstrates API testing using **Rest Assured** and **JAVA** for automating and validating API requests. The purpose is to ensure that the API endpoints are functioning as expected by performing various tests such as CRUD operations and authentication.
 
 ## Features
 - Automated API testing for various endpoints.
@@ -26,7 +25,6 @@ This project demonstrates API testing using **Rest Assured** and **Cypress** for
   
 ## Tools & Technologies
 - **Rest Assured** (Java)
-- **Cypress** (JavaScript)
 - **JUnit/TestNG** (for Rest Assured)
 - **VS Code** (for Cypress)
 - **Spring Tool Suite/Eclipse** (for Rest Assured)
@@ -73,13 +71,6 @@ To run API tests using **Rest Assured**:
 mvn test
 ```
 
-### Running Cypress Tests
-To run API tests using **Cypress**:
-```bash
-npx cypress open
-```
-This command will open the Cypress test runner, where you can select and run specific tests.
-
 ## Running Tests
 - All tests are automated and can be run via the command line.
 - Test reports are generated and stored in the `/target` folder (for Rest Assured).
@@ -88,17 +79,10 @@ This command will open the Cypress test runner, where you can select and run spe
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
 
-## License
-This project is licensed under the MIT License.
-
----
-
-This template can be modified to fit your specific project details. Let me know if you'd like any changes!
 
 
 
 
-# Introduction
-This API provides functionalities for [describe what your API does]. 
-The API allows clients to [list major functionalities like create, retrieve, update, delete operations].
+
+
 
